@@ -1,11 +1,6 @@
-#!/home/maxhutch/anaconda3/bin/python
+#!/usr/bin/env python3
 
 import numpy as np
-"""
-app_domain = [8, 8, 16]
-sys_domain = [4,4,4,8,2]
-"""
-
 from sys import argv, exit
 toks = argv[1].split(',')
 app_domain_in = np.array([int(toks[0]), int(toks[1]), int(toks[2])], dtype=int)
